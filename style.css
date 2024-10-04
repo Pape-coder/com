@@ -249,5 +249,48 @@ footer button:hover {
     font-weight: bold;
     margin-top: 10px;
 }
+.footer-column p{
+font-size: 15px;
+
+}
+.img{
+    position: sticky;
+}
+.cart-message {
+    display: none; /* Cacher le message par défaut */
+    color: green; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    margin-top: 10px; /* Espacement au-dessus */
+    font-size: 12px; /* Taille de police */
+    background-color: #f0f8ff; /* Couleur de fond */
+    padding: 10px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+    border: 1px solid #a5d6a7; /* Bordure */
+    width: fit-content; /* Ajuste la largeur au contenu */
+    position: absolute; /* Position absolue pour le placer selon le besoin */
+}
+/* video de présentation */
+ .main .video{
+    margin: 80px;
+    width: 90%;
+   
+}
+.main .video iframe{
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    color: #333;
+}
+/* Fin de la video de présentation */
+#search{
+    border-radius: 5px;
+
+}
+#search{
+    width: 35%;
+    height: 50px;
+}
+
 
 
